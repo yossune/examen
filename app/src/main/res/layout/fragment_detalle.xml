@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.DetalleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/imagenPROD"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:src="@drawable/corazon"
+               />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+
+               >
+               <TextView
+                   android:id="@+id/txtProductoTitle"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="Buzz"
+                   android:textAlignment="center"
+                   android:textStyle="bold"
+                   android:textSize="20dp"
+                   tools:ignore="RtlCompat" />
+               <TextView
+                   android:id="@+id/txtano"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="Wyeast 1056 - American Ale"
+                   tools:ignore="RtlCompat" />
+               <TextView
+                   android:id="@+id/txtlts"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="20lts"
+                   tools:ignore="RtlCompat" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       >
+                       <TextView
+                           android:id="@+id/txtTITAD"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_vertical"
+                           android:paddingStart="10dp"
+                           android:text="ADV:"
+                           tools:ignore="RtlCompat" />
+                       <TextView
+                           android:id="@+id/txtDESCADV"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_vertical"
+                           android:paddingStart="10dp"
+                           android:text="4.5%"
+                           tools:ignore="RtlCompat" />
+                   </LinearLayout>
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       >
+                       <TextView
+                           android:id="@+id/txtTITAD1"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_vertical"
+                           android:paddingStart="10dp"
+                           android:text="IBU:"
+                           tools:ignore="RtlCompat" />
+                       <TextView
+                           android:id="@+id/txtDESCADV1"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_vertical"
+                           android:paddingStart="10dp"
+                           android:text="60"
+                           tools:ignore="RtlCompat" />
+                   </LinearLayout>
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       >
+                       <TextView
+                           android:id="@+id/txtTITAD2"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_vertical"
+                           android:paddingStart="10dp"
+                           android:text="OG:"
+                           tools:ignore="RtlCompat" />
+                       <TextView
+                           android:id="@+id/txtDESCADV2"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_vertical"
+                           android:paddingStart="10dp"
+                           android:text="60"
+                           tools:ignore="RtlCompat" />
+                   </LinearLayout>
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       >
+                       <TextView
+                           android:id="@+id/txtTITAD3"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_vertical"
+                           android:paddingStart="10dp"
+                           android:text="FG:"
+                           tools:ignore="RtlCompat" />
+                       <TextView
+                           android:id="@+id/txtDESCADV3"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_vertical"
+                           android:paddingStart="10dp"
+                           android:text="60"
+                           tools:ignore="RtlCompat" />
+                   </LinearLayout>
+
+               </LinearLayout>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               >
+               <TextView
+                   android:id="@+id/txtDes"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="a REAL BITER EXPERIENCE"
+                   android:textStyle="bold"
+                   android:textSize="20dp"
+                   tools:ignore="RtlCompat" />
+               <TextView
+                   android:id="@+id/txtfecha"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="firz bitter"
+                   android:textAlignment="textEnd"
+                   tools:ignore="RtlCompat" />
+               <TextView
+                   android:id="@+id/txttips"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="Descripcion"
+                   tools:ignore="RtlCompat" />
+               <TextView
+                   android:id="@+id/txtDescriptips"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="Descripcion"
+                   tools:ignore="RtlCompat" />
+               <TextView
+                   android:id="@+id/txtparing"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="Descripcion"
+                   tools:ignore="RtlCompat" />
+               <TextView
+                   android:id="@+id/txtcarac"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:paddingStart="10dp"
+                   android:text="Descripcion"
+                   tools:ignore="RtlCompat" />
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   >
+                   <TextView
+                       android:id="@+id/txttithops"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:paddingStart="10dp"
+                       android:text="Producto"
+                       android:textStyle="bold"
+                       android:textSize="20dp"
+                       tools:ignore="RtlCompat" />
+                   <TextView
+                       android:id="@+id/txttitdeshops"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:paddingStart="10dp"
+                       android:text="Descripcion"
+                       tools:ignore="RtlCompat" />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   >
+                   <TextView
+                       android:id="@+id/txtmatti"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:paddingStart="10dp"
+                       android:text="Producto"
+                       android:textStyle="bold"
+                       android:textSize="20dp"
+                       tools:ignore="RtlCompat" />
+                   <TextView
+                       android:id="@+id/txtmatdesc"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_vertical"
+                       android:paddingStart="10dp"
+                       android:text="Descripcion"
+                       tools:ignore="RtlCompat" />
+
+               </LinearLayout>
+           </LinearLayout>
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Punkapl</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="btn_sign_up">Ingresar</string>
+    <string name="error_User">Campo Vacio</string>
+    <string name="error_contrasena">Campo Vacio</string>
+</resources>
